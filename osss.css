@@ -1,0 +1,169 @@
+/* body background and font */
+body{
+	background: #fff;
+    color: #000;
+	font: normal 14px/175% verdana,sans-serif;
+}
+
+/* text and lists */
+p{
+	margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+.contact {
+text-align: left;
+/*line-height: 200%;*/
+line-height: 150%;
+color: gray;
+}
+
+lalign{
+text-align: left;
+}
+
+/* headers: */
+/* USE h1 ONLY for the top-page title */
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	//margin: 20px 0px 15px 0px;
+	padding: 0px;
+}
+h1{
+	font-size: 218%;
+}
+h2{
+	font-size: 164%
+}
+//h3{
+	//font-size: 145%;
+//font-size: 125%;
+//font-weight: bold;
+//}
+h4{
+	font-size: 118%;
+}
+
+.body{
+}
+
+/* general containers formatting */
+#container{
+	width: 700px;
+	margin: auto;
+	/*margin: 0px;*/
+	padding: 30px;
+}
+
+#header{
+	width: 600px;
+	margin: 0px 0px 50px 0px;
+	padding: 0px;
+}
+
+#headshot {
+    float: right;
+    margin: 0 0 10px 10px;
+    /*border: 1px solid #666;*/
+}
+
+#figures {
+    width: 100%;
+    /*width: 700px;*/
+}
+
+.menu{
+	margin: 30px 0px 30px 0px;
+	padding: 10px 0px 10px 0px;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #777;
+	color: #777;
+}
+#footer{
+	margin:	30px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+	border-top: 1px solid #777;
+	color: #777;
+	font: normal 10px/150% verdana,sans-serif;
+}
+#footer p{
+	margin: 0px 0px 3px 0px;
+}
+
+/* link formatting in different contexts */
+a:link{
+	text-decoration: none;
+	color: #00e;
+}
+a:visited{
+	text-decoration: none;
+	color: #009;
+}
+a:hover{
+	text-decoration: underline;
+	color: #00e;
+}
+h1 a:link{
+	text-decoration: none;
+	color: #000;
+}
+h1 a:visited{
+	text-decoration: none;
+	color: #000;
+}
+h1 a:hover{
+	text-decoration: none;
+	color: #000;
+}
+#footer a:link{
+	text-decoration: none;
+	color: #77a;
+}
+#footer a:visited{
+	text-decoration: none;
+	color: #77a;
+}
+#footer a:hover{
+	text-decoration: underline;
+	color: #77a;
+}
+
+#menu {
+    text-align: center;
+}
+
+.heading {
+    width: 15%;
+    float: left;
+    margin-right: 20px;
+}
+h2 {
+    font-size: 110%;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: top;
+}
+.content {
+    width: 70%;
+    float: left;
+    margin-bottom: 15px;
+}
+/*
+.sec:after .sec:before {
+    content: " ";
+    display: table;
+    clear: both;
+}
+*/
+.sec {
+    border-top: 2px solid silver;
+    margin-top:  15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    clear: both;
+}
+.sec:after {
+  content:"";
+  display:table;
+  clear:both;
+}
